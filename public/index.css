@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+.topnav {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: green;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+@media screen and (max-width: 50em) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+.middleHeader {
+    height: 17em;
+    background-color: darkslategrey;
+    padding: 2px 2px 2px 2px;
+    color: whitesmoke;
+}
+.carousel-inner {
+    height: 600px;
+    width: 1140px;
+    padding: 5px
+}
+.caption {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+* {
+    box-sizing: border-box;
+}
+.faded {
+    position: relative;
+    margin: 0 auto
+}
+/*.container img {vertical-align: middle;}*/
+.faded .plus {
+    /*position: absolute;*/
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 1140px;
+    padding: 20px
+}
+section {
+    width: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-shadow: 2px 2px 5px
+}
+section > div {
+    width: 5em;
+    padding: 10px 10px 15px 180px;
+    margin: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: royalblue;
+    background-color:
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.parallax {
+    background-image: url("https://stmed.net/sites/default/files/fantasy-city-wallpapers-28143-3328934.jpg");
+    min-height: 67em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#pics {
+    height: 200px;
+    width: 200px
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.flexItems {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    padding: 5px 5px 5px 15px
+}
+@-webkit-keyframes example {
+    from {color: white;}
+    to {color: blue;}
+}
+@keyframes example {
+    from {color: white;}
+    to {color: blue;}
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#secondRow {
+    background-image: url("https://wallpapertag.com/wallpaper/full/3/4/8/154920-fantasy-castle-wallpaper-1920x1080-phone.jpg");
+    min-height: 67em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+/*footer {*/
+    /*height: 200px;*/
+    /*background-color: grey;*/
+/*}*/
+#grad1 {
+    height: 20em;
+    background: blue;
+    background: linear-gradient(blue, green);
+    color: white;
+}
