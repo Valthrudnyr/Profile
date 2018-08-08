@@ -16,13 +16,13 @@ body {
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: green;
+    background-color: darkslategrey;
     color: black;
 }
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+/*.topnav a.active {*/
+    /*background-color: #4CAF50;*/
+    /*color: white;*/
+/*}*/
 .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -149,7 +149,7 @@ section > div {
     transform: translate(-50%, -50%)
 }
 #secondRow {
-    background-image: url("https://wallpapertag.com/wallpaper/full/3/4/8/154920-fantasy-castle-wallpaper-1920x1080-phone.jpg");
+    background-image: url("https://images.wallpaperscraft.com/image/night_city_sky_skyscrapers_79288_1920x1080.jpg");
     min-height: 67em;
     background-attachment: fixed;
     background-position: center;
