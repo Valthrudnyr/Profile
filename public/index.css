@@ -60,9 +60,9 @@ body {
 .headerName {
     color: darkkhaki;
 }
-/*#h3 {*/
-    /*color: blue;*/
-/*}*/
+#h3 {
+    color: blue;
+}
 .carousel-inner {
     height: 600px;
     width: 1140px;
