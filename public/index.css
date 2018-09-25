@@ -60,6 +60,9 @@ body {
 .headerName {
     color: darkkhaki;
 }
+/*#h3 {*/
+    /*color: blue;*/
+/*}*/
 .carousel-inner {
     height: 600px;
     width: 1140px;
@@ -177,3 +180,7 @@ section > div {
     /*height: 1em;*/
     /*width: 1em;*/
 /*}*/
+footer {
+    text-shadow: 4px 3px black;
+    font-size: large;
+}
