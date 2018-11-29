@@ -176,6 +176,9 @@ section > div {
     background: linear-gradient(blue, green);
     color: white;
 }
+#gradp1 {
+  color: green;
+}
 /*#personalPic {*/
     /*height: 1em;*/
     /*width: 1em;*/
