@@ -107,7 +107,7 @@ section > div {
     margin: 10px;
     line-height: 20px;
     text-align: center;
-    color: royalblue;
+    color: whitesmoke;
     background-color:
 }
 .grow { transition: all .2s ease-in-out; }
@@ -176,9 +176,7 @@ section > div {
     background: linear-gradient(blue, green);
     color: white;
 }
-#gradp1 {
-  color: green;
-}
+
 /*#personalPic {*/
     /*height: 1em;*/
     /*width: 1em;*/
