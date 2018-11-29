@@ -91,6 +91,8 @@ body {
     width: 1140px;
     padding: 20px
 }
+
+/* listing of techs etc  */
 section {
     width: 100px;
     display: flex;
@@ -110,6 +112,8 @@ section > div {
     color: whitesmoke;
     background-color:
 }
+
+/* performs animation of the four headings getting larger */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 .parallax {
@@ -120,6 +124,7 @@ section > div {
     background-repeat: no-repeat;
     background-size: cover
 }
+/* two pics for resume and github  */
 #pics {
     height: 200px;
     width: 200px
